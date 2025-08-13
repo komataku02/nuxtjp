@@ -1,75 +1,32 @@
-# Nuxt Minimal Starter
+# Contact App - Frontend (Nuxt 3)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+このリポジトリは「Contact App」のフロントエンド部分です。  
+バックエンド（Laravel API）と連携して動作します。
 
-## Setup
+## 🚀 使用技術
+- Nuxt 3 (TypeScript)
+- Axios
+- HTML / CSS
 
-Make sure to install dependencies:
+## 📂 関連リポジトリ
+- [バックエンド (Laravel API)](https://github.com/komataku02/laravel-api)
 
+## 🖥 機能概要
+- 連絡先一覧の取得
+- 新規作成
+- 更新
+- 削除
+- バリデーションエラー表示
+
+## ⚙️ 開発環境での起動方法
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# 依存パッケージのインストール
 yarn install
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
+# 開発サーバー起動
 yarn dev
 
-# bun
-bun run dev
-```
+#API ベースURL
+.env ファイルに API の URL を設定します。
+NUXT_PUBLIC_API_BASE=http://127.0.0.1:8000/api
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
