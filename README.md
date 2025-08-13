@@ -30,3 +30,9 @@ yarn dev
 .env ファイルに API の URL を設定します。
 NUXT_PUBLIC_API_BASE=http://127.0.0.1:8000/api
 
+```bash
+cd ~/coachtech/Nuxt/nuxtjp
+git add README.md
+git commit -m "Add README with backend repo link"
+git push
+
